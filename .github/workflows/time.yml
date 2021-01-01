@@ -22,4 +22,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo testing date
-          date '+%Y-%m-%d-%H-%M'
+          my_date=$(date '+%Y-%m-%d-%H-%M')
+          echo Todat is $my_date 
